@@ -93,6 +93,4 @@ end
 
 
 
-def list_pets
-  
-end
+
