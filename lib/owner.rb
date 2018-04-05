@@ -93,7 +93,7 @@ end
 
 
 
-private def list_pets
+def list_pets
   fish = @pets[:fishes].length
   dogs = @pets[:dogs].length
   cats = @pets[:cats].length
