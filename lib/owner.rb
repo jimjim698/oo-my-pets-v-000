@@ -89,4 +89,11 @@ def sell_pets
   @pets.clear
 end
 
+def list_pets
+fish = @pets[:fishes].length
+dogs = @pets[:dogs].length
+cats = @pets[:cats].length
+puts "I have #{fish} fish, #{dogs} dogs, and #{cats}."
+end
+
 end
